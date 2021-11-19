@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LetsJump.DataAccess\LetsJump.DataAccess.csproj" />
+  </ItemGroup>
+  <Target Name="AfterBuild">
+    <MSBuild Condition="'$(DeployOnBuild)'!='true'" Projects="$(MSBuildProjectFullPath)" Properties="DeployOnBuild=true;PublishProfile=FolderProfile;BuildingInsideVisualStudio=False" />
+  </Target>
+</Project>

@@ -1,0 +1,9 @@
+D:\LetsJump\api\LetsJump\LetsJump.DataAccess\bin\Release\netcoreapp3.1\LetsJump.DataAccess.dll.config
+D:\LetsJump\api\LetsJump\LetsJump.DataAccess\bin\Release\netcoreapp3.1\LetsJump.DataAccess.deps.json
+D:\LetsJump\api\LetsJump\LetsJump.DataAccess\bin\Release\netcoreapp3.1\LetsJump.DataAccess.dll
+D:\LetsJump\api\LetsJump\LetsJump.DataAccess\bin\Release\netcoreapp3.1\LetsJump.DataAccess.pdb
+D:\LetsJump\api\LetsJump\LetsJump.DataAccess\obj\Release\netcoreapp3.1\LetsJump.DataAccess.csprojAssemblyReference.cache
+D:\LetsJump\api\LetsJump\LetsJump.DataAccess\obj\Release\netcoreapp3.1\LetsJump.DataAccess.AssemblyInfoInputs.cache
+D:\LetsJump\api\LetsJump\LetsJump.DataAccess\obj\Release\netcoreapp3.1\LetsJump.DataAccess.AssemblyInfo.cs
+D:\LetsJump\api\LetsJump\LetsJump.DataAccess\obj\Release\netcoreapp3.1\LetsJump.DataAccess.dll
+D:\LetsJump\api\LetsJump\LetsJump.DataAccess\obj\Release\netcoreapp3.1\LetsJump.DataAccess.pdb
